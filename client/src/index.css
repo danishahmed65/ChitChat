@@ -5,6 +5,20 @@
   font-family: "Outfit", sans-serif;
 }
 
-::webkit-scrollbar{
-  display: none;
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4B5563;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6B7280;
 }
