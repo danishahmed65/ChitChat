@@ -43,11 +43,8 @@ const Sidebar = ({selectedUser, setSelectedUser}) => {
               : <span className='text-neutral-300 text-xs'>Offline</span>
             }
           </div>
-          {index > 2 && (
-            <span className="ml-auto text-xs h-5 w-5 flex justify-center items-center rounded-full bg-violet-500/50">
-              {index}
-            </span>
-          )}
+          {index > 2 && <p className="ml-auto text-xs h-5 w-5 flex justify-center items-center rounded-full bg-violet-500/50">
+              {index} </p> }
         </div>
       ) )}
     </div>
